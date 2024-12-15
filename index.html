@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.animation {
+width: 200px;
+height: 60px;
+border-radius: 20px;
+position: relative;
+-webkit-animation: anima 10s infinite;
+animation: anima 10s infinite;
+} 
+@-webkit-keyframes anima {
+        0%   {left: 0px;}
+        25%  {left: 500px; background: #00FFFF;}
+        75%  {left: 250px;}
+        100% {left: 0px; background: #0000FF;} 
+        } 
+@keyframes anima {
+        0%   {left: 0px;} 
+        25%  {left: 500px; background:#00FFFF;} 
+        75%  {left: 250px;} 
+        100% {left: 0px; background: #0000FF;} 
+        } 
+</style>
+</head>
+<body>
+<div class = "animation"></div>
+</body>
+</html>
