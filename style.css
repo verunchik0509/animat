@@ -1,0 +1,13 @@
+.animation {
+width: 200; 
+height: 75px;  
+border-radius: 20px; 
+position: relative;  
+animation: anima 10s infinite;  
+} 
+@keyframes anima {
+  0%   {left: 0px;} 
+  25%  {left: 500px; background: #00FFFF;} 
+  75%  {left: 250px;} 
+  100% {left: 0px; background: #0000FF;} 
+  }
